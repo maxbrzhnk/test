@@ -1,0 +1,32 @@
+﻿<div class="container body-content" id="tableBlock"></div>
+<div id="editBlock">
+    <p><b>Edit article</b></p>
+    <table>
+        <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+        <tr><td><label>Language: </label></td><td><input type="text" id="editLanguage" /></td></tr>
+        <tr><td><label>Header: </label></td><td><input type="text" id="editHeader" /></td></tr>
+        <tr><td><label>TextTeaser: </label></td><td><input type="text" id="editTextTeaser" /></td></tr>
+        <tr><td><label>HtmlContent: </label></td><td><input type="text" id="editHtmlContent" /></td></tr>
+        <tr><td><label>ImageUrlTeaser: </label></td><td><input type="text" id="editImageUrlTeaser" /></td></tr>
+        <tr><td><label>ImageUrl: </label></td><td><input type="text" id="editImageUrl" /></td></tr>
+    </table>
+    <button id="editArticle">Save</button>
+</div>
+<div id="createBlock">
+    <p><b>Add article</b></p>
+    <table>
+        <tr><td><label>Language: </label></td><td><input type="text" id="addLanguage" /></td></tr>
+        <tr><td><label>Header: </label></td><td><input type="text" id="addHeader" /></td></tr>
+        <tr><td><label>TextTeaser: </label></td><td><input type="text" id="addTextTeaser" /></td></tr>
+        <tr><td><label>HtmlContent: </label></td><td><input type="text" id="addHtmlContent" /></td></tr>
+        <tr><td><label>ImageUrlTeaser: </label></td><td><input type="text" id="addImageUrlTeaser" /></td></tr>
+        <tr><td><label>ImageUrl: </label></td><td><input type="text" id="addImageUrl" /></td></tr>
+    </table>
+    <button id="addArticle">Save</button>
+</div>
+
+
+@section scripts
+{
+    <script type="text/javascript"  src="@Url.Content("/Scripts/Index.js")"></script>
+}
