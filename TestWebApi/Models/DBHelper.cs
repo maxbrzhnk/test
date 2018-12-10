@@ -26,6 +26,23 @@ namespace TestWebApi.Models
             {
                 try
                 {
+                    /*Small changes*/
+
+                    /*Small changes*/
+                    /*Small changes*/
+                    /*Small changes*/  /*Small changes*/
+
+                    /*Small changes*/
+                    /*Small changes*/
+                    /*Small changes*/  /*Small changes*/
+
+                    /*Small changes*/
+                    /*Small changes*/
+                    /*Small changes*/  /*Small changes*/
+
+                    /*Small changes*/
+                    /*Small changes*/
+                    /*Small changes*/
                     return db.Menus
                     .FirstOrDefault(menu => menu.Translations
                         .Any(translation => translation.Name == name))
