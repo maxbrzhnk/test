@@ -8,6 +8,7 @@ namespace TestWebApi.Models
 {
     public class SiteContextInitializer: DropCreateDatabaseAlways<SiteContext>
     {
+        /*Small changes*/
         protected override void Seed(SiteContext db)
         {            
             #region English article translations
