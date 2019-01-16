@@ -16,6 +16,14 @@ namespace TestWebApi.Controllers
         //Two
         //Two
         //Two
+=======
+        //One
+
+        //One
+        //One
+        //One
+        //One
+>>>>>>> 78a61d349cdabdabcf74c548d56b6ca9a6574143
         public ActionResult Index()
         { /*Small changes*/ /*Small changes*/ /*Small changes*/ /*Small changes*/ /*Small changes*/
                                                                                   /*Small changes*/
